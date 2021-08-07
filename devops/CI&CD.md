@@ -1,7 +1,9 @@
 ### 背景
 
 >公司业务发展，研发团队服务规模化问题凸显，尤其是在微服务理念理解不足、领域划分不明确的情况下，拆分过杂。表现为服务系统数量激增、服务版本控制以及发布构建较为无章法、有研发失控风险。
-在此情形下，提出通过Jenkins搭建持续集成环境，继而提出Git+Jenkins+maven+EDAS（阿里容器服务【docker+k8s】）方案。
+当然提高研发管理，提示coder服务治理、领域划分能力是核心、本质，但此处不谈。在此仅聊打通CI/CD解决方案，尽量提升研发效能。
+>此处CI/CD方案为通过Jenkins搭建持续集成环境，继而形成Git+Jenkins+maven+nexus+EDAS（阿里容器服务【docker+k8s】）方案。
 
 ### 方案设计(一图一避之)
 ![全景图](https://user-images.githubusercontent.com/88572123/128595034-cca13ad4-a1be-4a2e-98b0-0cf5b9fcf32b.jpg)
+
