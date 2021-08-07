@@ -4,3 +4,4 @@
 在此情形下，提出通过Jenkins搭建持续集成环境，继而提出Git+Jenkins+maven+EDAS（阿里容器服务【docker+k8s】）方案。
 
 ### 方案设计(一图一避之)
+![全景图](https://user-images.githubusercontent.com/88572123/128595034-cca13ad4-a1be-4a2e-98b0-0cf5b9fcf32b.jpg)
